@@ -1,0 +1,43 @@
+{
+  // tsc : v2.0.4
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    /* **จากตรงนี้ : Folder ไม่สร้างตามนี้ก็ลบไปซะ** */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    /* **ถึงตรงนี้ : Folder ไม่สร้างตามนี้ก็ลบไปซะ** */
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+    // Other Setting Good
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    // Other Outputs
+    "sourceMap": false,
+    "declaration": true,
+    "declarationMap": false,
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    // Recommended Options
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+}
