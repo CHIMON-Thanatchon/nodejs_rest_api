@@ -2,10 +2,11 @@ node_modules
 
 # nest
 D:\Code\nodejs_apiandauthenticatorAll\nodejs_rest_api\nest\.env
+D:\Code\nodejs_apiandauthenticatorAll\nodejs_rest_api\nest\node_modules
 
 # normal
 D:\Code\nodejs_apiandauthenticatorAll\nodejs_rest_api\normal\.env
-
+D:\Code\nodejs_apiandauthenticatorAll\nodejs_rest_api\normal\node_modules
 
 
 # compiled output
